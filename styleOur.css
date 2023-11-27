@@ -1,0 +1,155 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(./font/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./font/static/Poppins-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.pink {
+    background-color: #f7adc3;
+    height: 2.5rem;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.menu-h {
+    max-width: 1.063rem;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+ul {
+    padding: 0; 
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.5rem JosefinSans;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1170px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        text-align: left;
+        margin: 30px 0px;
+    }
+    
+    .nav {
+        max-width: 800px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block;
+        max-width: 2rem;
+        height: auto;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    
+    .menu {
+        margin-top: 40px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        text-align: left;
+        margin: 30px 0px;
+    }
+
+    .logo img {
+        max-width: 10.625rem;
+        height: auto;
+    }
+    
+    .nav {
+        max-width: 700px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block;
+        max-width: 2rem;
+        height: auto;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0px auto;
+    }
+    
+    .menu {
+        margin-top: 40px;
+        display: none;
+    }
+}
