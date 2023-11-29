@@ -26,7 +26,14 @@ body {
 }
 
 .nav-menu {
-    display: none;
+    display: none; 
+}
+
+.nav-line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(190, 190, 190);
+    margin: 6px 0; 
 }
 
 .menu-h {
@@ -164,16 +171,23 @@ footer img {
     
     .nav {
         max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0px auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav-menu {
-        display: flex;
-        align-items: center;
+        display: block; 
     }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
     
     .menu-h {
         max-width: 1.063rem;
@@ -304,16 +318,23 @@ footer img {
     
     .nav {
         max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0px auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav-menu {
-        display: flex;
-        align-items: center;
+        display: block; 
     }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
     
     .menu-h {
         max-width: 1.063rem;
